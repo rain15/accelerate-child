@@ -1,0 +1,376 @@
+/*
+ Theme Name:   accelerate-theme-child
+ Theme URI:    http://localhost:8888/accelerate-theme-child/
+ Description:  Accelerate Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+.button {
+	background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-menu {
+margin:0;
+}
+
+.nav-menu ul li {
+	float:left;
+	margin:0 30px;
+	text-transform:uppercase;
+}
+
+/* Featured work on homepage */
+.featured-work {
+	overflow:auto;
+}
+
+
+.homepage-featured-work ul {
+	margin:0;
+}
+
+.individual-featured-work {
+    float: left;
+    list-style-type: none;
+    margin: 0 5% 0 0;
+    width: 29%;
+}
+
+.individual-featured-work h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.featured-work h4 {
+	font-family:'Montserrat';
+	text-transform:uppercase;
+	text-align:center;
+	margin:0 0 40px;
+}
+
+.individual-featured-work:nth-child(3n) {
+    margin: 0;
+    width: 31%;
+}
+
+/* blog post on homepage */
+
+
+.blog-post {
+	width: 50%;
+	
+}
+
+.blog-post h4 {
+	
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;	
+}
+
+.blog-post h2 {
+	font-size : 24px;
+	font-family: 'Montserrat';
+	font-we
+}
+
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+	
+}
+
+
+
+
+/* Case Studies */
+
+article.case-study {
+    clear: both;
+    margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+float: left;
+width: 364px;
+margin: 0 40px 0 0;
+}
+
+aside.case-study-sidebar h4 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+aside.case-study-sidebar h5 {
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.33333;
+    margin: 0 0 12px;
+}
+
+aside.case-study-sidebar h6 {
+	color: #808080;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0 0 30px;
+}
+
+aside.case-study-sidebar p {
+	color: #808080;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+div.case-study-images {
+	float:left;
+	width:556px;
+}
+
+div.case-study-images img {
+    border: 1px solid #dddddd;
+    margin-bottom: 100px;
+    width: 456px;
+    height: auto;
+}
+
+
+/* ninja forms customization */
+
+#content {
+        width: 530px;
+        font-size: 15px;
+        font-weight: normal;
+
+}
+
+#content p{
+        
+        color: #909090;
+
+}
+
+#ninja_forms_field_1_div_wrap {
+    float:left;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 30px;
+    width: 250px;
+
+}
+
+#ninja_forms_field_2_div_wrap {
+    float:left;
+    font-size: 12px;
+    font-weight: normal;
+    width: 250px;
+
+
+}
+
+#ninja_forms_field_3_div_wrap {
+    clear:both;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    width: 530px;
+
+}
+
+#nf_submit_1 {
+    clear: both;
+    float: right;
+    
+}
+
+#ninja_forms_field_4 {
+    font-family:'Montserrat';
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    background: none repeat scroll 0 0 #45ac9d;
+    width: 200px;
+    height: 40px;
+
+}
+
+/* About Us page styles */
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+.homepage-hero h3{
+    text-align: center;
+    width: 70%;
+    margin: 30% 15%;
+}
+
+.site-content-services {
+        width: 800px;
+        margin: auto;   
+}
+
+#services_title_area {
+    text-align:center;
+}
+
+.div_empty {
+        margin-top: 40px;
+}
+
+
+
+.individual_services_image_first {
+    width: auto;
+    
+    
+
+}
+
+.individual_services_text_first {
+       width: auto;
+
+}
+
+
+.div_wrap_1 {
+    float:left;
+    width: 20%;
+    height: auto;
+    margin-bottom: 60px;
+    position: relative;
+    top: 30px;
+
+
+}
+
+.div_wrap_2 {
+    float:right;
+    font-size: 14px;
+    font-weight: normal;
+    width: 67%;
+    
+
+    margin-bottom: 40px;
+
+}
+
+.clear-it {
+   clear: both; 
+}
+.div_wrap_3 {
+    float:left;
+    font-size: 14px;
+    font-weight: normal;
+    width: 67%;
+
+}
+
+.div_left_buffer {
+        margin-right: 40px;
+}
+
+.div_wrap_4 {
+    float:right;
+    width: 20%;
+    position: relative;
+    top: 30px;
+    margin-right: 0;
+
+}
+
+.brand-color {
+    color: #45ac9d;
+}
+
+
+
+.work-with-us {
+    clear: both;
+    width: 960px;
+    margin: auto;   
+    position: relative;
+    left: -80px;
+    
+    
+}
+
+.work-with-us-wrap {
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.work-with-us-text {
+    font-family:'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-work-with-us {
+    float: right;
+    font-family:'Montserrat';
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    background: none repeat scroll 0 0 #45ac9d;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 40px;
+
+
+}
+
+/* 404 styles */
+
+.content {
+    clear: both;
+    width: 960px;
+}
+
+
+#custom-err-img {
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 30px;
+    float: left;
+}
+
+#custom-error-msg {
+    float: right;
+    width: 65%;
+    position: relative;
+    left: 30px;
+}
+
