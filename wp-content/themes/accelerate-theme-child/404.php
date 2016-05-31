@@ -14,7 +14,7 @@ get_header(); ?>
 		<div id="content" role="main">
 			<div id="custom-error-wrap">
 				<div id="custom-err-img">
-					<img src="<?php bloginfo('template_url'); ?>-child/img/404img.jpg" alt="404"  />
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/404img.jpg" alt="404"  />
 				</div>
 				<div id="custom-error-msg">
 					<h3 class="brand-color">Whoops, Took a Wrong Turn...</h3>

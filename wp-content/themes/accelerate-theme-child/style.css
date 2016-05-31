@@ -223,6 +223,23 @@ div.case-study-images img {
 
 }
 
+#ninja-forms-success {
+    width: 960px;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+
+    
+}
+
+#ninja-forms-success h2 {
+    
+}
+
+#ninja-forms-success p {
+    
+}
+
 /* About Us page styles */
 
 .home-page {
@@ -374,3 +391,31 @@ div.case-study-images img {
     left: 30px;
 }
 
+/* twitter module */
+.widget-area {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* mailchimp */
+.mc4wp-form-fields p {
+    display: inline;
+
+}
+
+.mc4wp-form-fields {
+    margin-top: 20px;   
+}
+
+.mc4wp-form-fields input[type="submit"] {
+    position: relative:
+    top: 50px;
+    font-family:'Montserrat';
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    background: none repeat scroll 0 0 #45ac9d;
+    width: 140px;
+    height: 40px;
+    margin-left: 30px;
+}
