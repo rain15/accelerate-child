@@ -60,27 +60,35 @@ get_header(); ?>
 </ul>
 
 
-<section class="recent-posts">
-	<div class="site-content">
-		<div class="blog-post">
-			<h4>From the Blog</h4>
-			<?php query_posts('posts_per_page=1'); ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-				<h2><?php the_title(); ?></h2>
-				<?php the_excerpt(); ?>
-				<a href="<?php the_permalink(); ?>" class="read-more-link">Read More <span>&rsaquo;</span></a>
-			<?php endwhile; // end of the loop. ?>
-			<?php wp_reset_query(); // resets the altered query back to the original ?>
+
+<div class="columns">
+	<div class="column twocol">
+	<section class="recent-posts">
+		<div class="site-content">
+			<div class="blog-post">
+				<h4>From the Blog</h4>
+				<?php query_posts('posts_per_page=1'); ?>
+				<?php while ( have_posts() ) : the_post(); ?>
+					<h2><?php the_title(); ?></h2>
+					<?php the_excerpt(); ?>
+					<a href="<?php the_permalink(); ?>" class="read-more-link">Read More <span>&rsaquo;</span></a>
+				<?php endwhile; // end of the loop. ?>
+				<?php wp_reset_query(); // resets the altered query back to the original ?>
+			</div>
 		</div>
-	</div>
-</section>
-
-
-<?php if ( is_active_sidebar('sidebar-2' ) ) : ?>
-<div id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+	</section>
 </div>
-<?php endif; ?>
+
+<div class="column twocol">
+	<?php if ( is_active_sidebar('sidebar-2' ) ) : ?>
+		<div id="secondary" class="widget-area" role="complementary">
+			<?php dynamic_sidebar( 'sidebar-2' ); ?>
+		</div>
+	<?php endif; ?>
+</div>
+
+<div class="clear"></div>
+
 
 
 <?php get_footer(); ?>

@@ -93,8 +93,12 @@ margin:0;
 
 .blog-post h2 {
 	font-size : 24px;
-	font-family: 'Montserrat';
-	font-we
+	font-family: 'Montserrat';	
+}
+
+.blog-post p {
+        padding-top: 20px;
+
 }
 
 .blog-post .read-more-link {
@@ -395,9 +399,40 @@ div.case-study-images img {
 .widget-area {
     max-width: 960px;
     margin: auto;
+    padding-top: 18px;
 }
 
+.tweets:before{
+    white-space: pre; /* or pre-wrap */
+    content: "@Accelerate";
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+
+}
+
+.tweets li {
+    padding: 20px 0;
+
+}
+
+.widget-area .read-more-link {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+    
+    
+}
+
+
+
 /* mailchimp */
+#mc4wp_form_widget-2  {
+        margin-top: 40px;
+    
+}
 .mc4wp-form-fields p {
     display: inline;
 
@@ -418,4 +453,43 @@ div.case-study-images img {
     width: 140px;
     height: 40px;
     margin-left: 30px;
+}
+
+
+/* 2 column layout */
+
+.widget-title {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;  
+}
+
+.tweets {
+        margin: 0;
+        padding-top: 18px;
+}
+.tweets li {
+    list-style-type: none;
+
+}
+
+.twitter-follow-container {
+
+    padding-top: 30px;
+}
+
+
+
+
+.columns .twocol {
+    width: 48.5%;
+}
+
+.column {
+    float: left;
+}
+
+.clear {
+    clear: both;
 }
