@@ -97,3 +97,12 @@ function hide_editor() {
     }
 }
 
+
+// Refresh those permalinks message
+add_action('admin_notices', 'admin_notice_refresh_permalinks' );
+function admin_notice_refresh_permalinks() {
+  echo '<div class="error">
+          <h2 style="background: lightgreen; height: 40px; padding:40px;color:red;font-size:40px;text-align:center;">Do not forget to refresh those permalinks! :)</h2>
+        </div>';
+}
+
